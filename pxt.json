@@ -1,0 +1,21 @@
+{
+    "name": "roboklik ključavnica",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "servo": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}
