@@ -3,8 +3,8 @@
     "description": "",
     "dependencies": {
         "core": "*",
-        "radio": "*",
-        "servo": "*"
+        "servo": "*",
+        "radio": "*"
     },
     "files": [
         "main.blocks",
@@ -17,5 +17,5 @@
     "supportedTargets": [
         "microbit"
     ],
-    "preferredEditor": "tsprj"
+    "preferredEditor": "blocksprj"
 }
