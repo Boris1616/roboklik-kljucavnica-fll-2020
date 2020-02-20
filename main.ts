@@ -1,6 +1,6 @@
 radio.onReceivedString(function (receivedString) {
     // če je koda 11001
-    if (receivedString == "11001100") {
+    if (receivedString == "11001") {
         // odkleni
         servos.P0.setAngle(0)
         basic.showLeds(`
