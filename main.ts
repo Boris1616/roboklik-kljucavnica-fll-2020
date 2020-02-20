@@ -1,12 +1,12 @@
 radio.onReceivedString(function (receivedString) {
     // če je koda 11001
-    if (receivedString == "11001") {
+    if (receivedString == "11001100") {
         // odkleni
         servos.P0.setAngle(0)
         basic.showLeds(`
             # # # # #
             # . . . #
-            # . . # .
+            # . . . .
             # # # # #
             # # # # #
             `)
@@ -35,8 +35,7 @@ function zakleni () {
         // če je šifra enaka prejšni
         if (zaklenjeno == true) {
             // če je pin za odklenit enak pinu
-            //
-            //
+            servos.P0.setAngle(0)
             // če pin za odklenit ni enak pinu
             if (pin_za_odklenit == pin) {
                 // odkleni
