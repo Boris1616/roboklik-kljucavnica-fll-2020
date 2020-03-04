@@ -18,8 +18,15 @@ radio.onReceivedString(function (receivedString) {
 input.onButtonPressed(Button.AB, function () {
     // sprazni zaslon
     basic.clearScreen()
-    // izpiše P I N
-    basic.showString("P I N")
+    basic.showLeds(`
+        . # . # .
+        # # # # #
+        . # . # .
+        # # # # #
+        . # . # .
+        `)
+    basic.pause(1000)
+    basic.clearScreen()
     pin = ""
 })
 // ko pritisneš gumb B
